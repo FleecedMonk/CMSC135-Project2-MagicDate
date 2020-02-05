@@ -21,3 +21,9 @@ magic = _day*_month
 ### display the whole date
 print("The date is ",_month, "/",_day, "/",_year,".")
 print("The magic number is : ", magic)
+
+if magic == _year:
+        print("That date is a magic date")
+else:
+        print("That date is not a magic date")
+pass
