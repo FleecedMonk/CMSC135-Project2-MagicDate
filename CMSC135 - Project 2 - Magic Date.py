@@ -5,15 +5,15 @@
 ### example: 12/30/19 would be 12*30=360 and thus would be not true
 
 ### get the month and assign it to the variable
-_month = integer(input(Enter the Month in numerical format : ))
+_month = integer(input("Enter the Month in numerical format :" "))
 
 ### get the day and assign it to the variable
-_day =  interget(input(Enter the Day is numberical format : ))
+_day =  interget(input("Enter the Day is numberical format :"" ))
 
 ### get the year, in two digit format, and assign it to the
 ### variable
 
-_year = integer(input(Enter the year in two digit numerical format : ))
+_year = integer(input("Enter the year in two digit numerical format :"" ))
 
 ### Do the multiplication
 magic = _day*_month
